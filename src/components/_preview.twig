@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Preview Layout</title>
+    {% for asset in _target.resources.assets if asset.isCSS %}
+      <link media="all" rel="stylesheet" href="/components/raw/{{ asset.relPath }}">
+    {% endfor %}
+</head>
+<body>
+
+{{ yield }}
+
+</body>
+</html>
