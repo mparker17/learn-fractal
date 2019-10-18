@@ -1,2 +1,3 @@
+status: prototype
 context:
   alert_text: "This is alert text"
