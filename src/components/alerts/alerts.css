@@ -22,3 +22,11 @@
     background-color: lightcoral;
     color: darkred;
 }
+
+.alert.show {
+    transition: opacity 400ms;
+}
+
+.alert.hide {
+    opacity: 0;
+}

@@ -8,8 +8,10 @@
     {% endfor %}
 </head>
 <body>
+    {{ yield }}
 
-{{ yield }}
-
+{% for asset in _target.resources.assets if asset.isJS %}
+    <script type="text/javascript" src="/components/raw/{{ asset.relPath }}"></script>
+{% endfor %}
 </body>
 </html>
