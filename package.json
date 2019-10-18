@@ -1,6 +1,8 @@
 {
   "name": "learn-fractal",
   "dependencies": {
-    "@frctl/fractal": "^1.2.0"
+    "@frctl/consolidate": "^1.0.1",
+    "@frctl/fractal": "^1.2.0",
+    "twig": "^1.13.3"
   }
 }
