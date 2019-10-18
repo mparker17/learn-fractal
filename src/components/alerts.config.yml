@@ -1,3 +1,14 @@
 status: prototype
+default: success
 context:
   alert_text: "This is alert text"
+variants:
+  - name: success
+    context:
+      class: success
+  - name: warning
+    context:
+      class: warning
+  - name: error
+    context:
+      class: error
