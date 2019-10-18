@@ -1,3 +1,6 @@
 {
-  "name": "learn-fractal"
+  "name": "learn-fractal",
+  "dependencies": {
+    "@frctl/fractal": "^1.2.0"
+  }
 }
