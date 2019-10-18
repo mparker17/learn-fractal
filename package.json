@@ -3,6 +3,7 @@
   "dependencies": {
     "@frctl/consolidate": "^1.0.1",
     "@frctl/fractal": "^1.2.0",
+    "gulp": "^4.0.2",
     "twig": "^1.13.3"
   }
 }
